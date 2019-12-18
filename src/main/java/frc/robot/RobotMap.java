@@ -1,4 +1,4 @@
-package frc.robot;
+/*package frc.robot;
 
 public class RobotMap {
 
@@ -32,4 +32,4 @@ public class RobotMap {
     public static final int ELEVATOR_LEFT = 4;
     public static final int ELEVATOR_RIGHT = 5;
 
-}
+}*/

@@ -7,8 +7,6 @@
 
 package frc.robot;
 
-import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-
 import edu.wpi.first.wpilibj.command.Scheduler;
 
 
@@ -28,10 +26,8 @@ import frc.robot.commands.*;
 public class Robot extends TimedRobot {
   public static final DriveSubsystem drive = new DriveSubsystem();
 
-  TalonSRX talon = new TalonSRX(0);
   @Override
   public void robotInit() {
-    talon.set(ControlMode.PercentOutput, 0);
   }
 
   public void periodic() {
